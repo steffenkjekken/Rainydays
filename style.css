@@ -7,12 +7,11 @@
 }
 ul li { 
     font-family: "EB Garamond", serif;
+    color: #EAEAEA;
     list-style-type: none;
-    background: white;
     margin: 4px 0;
     padding-top: 4px;
     padding-left: 24px;
-    background: #F6F8FA;
     position: relative;
     line-height: 20px;
 }
