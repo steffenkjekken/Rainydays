@@ -6,12 +6,14 @@
     src: url("../Rainydays/fonts/EBGaramond-Italic-VariableFont_wght.ttf") format("truerype");
 }
 
+ul{
+    display: flex;
+    flex-direction: row;
+}
 ul li a {
     font-family: "EB Garamond", serif;
     text-decoration: none;
     color: #EAEAEA;
-    display: flex;
-    flex-direction: row;
 }
 
 ul li { 
@@ -28,8 +30,8 @@ ul li:before {
     position: absolute;
     top: 0px;
     left: 0;
-    height: 24px; /* line-height + padding-top */
-    width: 4px; /* original border width */
+    height: 24px;
+    width: 4px;
     background-color: #FFE51E;
 }
 
