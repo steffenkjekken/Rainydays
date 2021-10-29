@@ -17,11 +17,10 @@ ul li {
     list-style-type: none;
     display: flex;
     flex-direction: row;
+    text-align: center;
     margin: 4px 0;
     padding-top: 92px;
     padding-left: 304px;
-    position: relative;
-    line-height: 20px;
 }
 ul li:before {
     content: "";
