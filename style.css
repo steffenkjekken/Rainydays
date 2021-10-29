@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'EB Garamond', serif;
+    src: url("../Rainydays/fonts/BebasNeue-Regular.ttf") format("truetype");
+
+    font-family: 'EB Garamond', serif;
+    src: url("../Rainydays/fonts/EBGaramond-Italic-VariableFont_wght.ttf") format("truerype");
+}
+
+header,
+footer {
+    background-color: #002E55;
+    color: #EAEAEA;
+}
