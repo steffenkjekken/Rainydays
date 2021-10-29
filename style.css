@@ -26,12 +26,8 @@ ul li {
     line-height: 20px;
 }
 ul li:before {
-    display: flex;
-    flex-direction: row;
     content: "";
     position: absolute;
-    top: 0px;
-    left: 0;
     height: 24px;
     width: 4px;
     background-color: #FFE51E;
