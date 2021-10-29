@@ -23,7 +23,7 @@ ul li:before {
     left: 0;
     height: 24px; /* line-height + padding-top */
     width: 12px; /* original border width */
-    background-color: #5EAADF;
+    background-color: #FFE51E;
 }
 
 h1,h2,h3,h4,h5 { 
