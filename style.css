@@ -6,7 +6,7 @@
     src: url("../Rainydays/fonts/EBGaramond-Italic-VariableFont_wght.ttf") format("truerype");
 }
 
-a {
+.li a {
     text-decoration: none;
 }
 
