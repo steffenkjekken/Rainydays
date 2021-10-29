@@ -15,9 +15,11 @@ ul li a {
 ul li { 
     color: #EAEAEA;
     list-style-type: none;
+    display: flex;
+    flex-direction: row;
     margin: 4px 0;
-    padding-top: 4px;
-    padding-left: 24px;
+    padding-top: 92px;
+    padding-left: 304px;
     position: relative;
     line-height: 20px;
 }
