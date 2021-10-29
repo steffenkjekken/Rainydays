@@ -5,10 +5,14 @@
     font-family: "EB Garamond", serif;
     src: url("../Rainydays/fonts/EBGaramond-Italic-VariableFont_wght.ttf") format("truerype");
 }
+
+a {
+    text-decoration: none;
+}
+
 ul li { 
     font-family: "EB Garamond", serif;
     color: #EAEAEA;
-    text-decoration: none;
     list-style-type: none;
     margin: 4px 0;
     padding-top: 4px;
