@@ -6,7 +6,7 @@
     src: url("../Rainydays/fonts/EBGaramond-Italic-VariableFont_wght.ttf") format("truerype");
 }
 
-.li a {
+.ul li a {
     text-decoration: none;
 }
 
@@ -26,7 +26,7 @@ ul li:before {
     top: 0px;
     left: 0;
     height: 24px; /* line-height + padding-top */
-    width: 12px; /* original border width */
+    width: 4px; /* original border width */
     background-color: #FFE51E;
 }
 
