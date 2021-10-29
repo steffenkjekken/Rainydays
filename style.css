@@ -1,10 +1,13 @@
 @font-face {
-    font-family: 'EB Garamond', serif;
+    font-family: 'Bebas Neue', serif;
     src: url("../Rainydays/fonts/BebasNeue-Regular.ttf") format("truetype");
 
     font-family: 'EB Garamond', serif;
     src: url("../Rainydays/fonts/EBGaramond-Italic-VariableFont_wght.ttf") format("truerype");
 }
+ul li { font-family: Arial, Sans-Serif }
+
+h1,h2,h3,h4,h5 { font-family:"Bebas Neue";}
 
 header,
 footer {
