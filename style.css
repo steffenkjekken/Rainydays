@@ -7,6 +7,23 @@
 }
 ul li { 
     font-family: "EB Garamond", serif;
+    list-style-type: none;
+    background: white;
+    margin: 4px 0;
+    padding-top: 4px;
+    padding-left: 24px;
+    background: #F6F8FA;
+    position: relative;
+    line-height: 20px;
+}
+ul li:before {
+    content: "";
+    position: absolute;
+    top: 0px;
+    left: 0;
+    height: 24px; /* line-height + padding-top */
+    width: 12px; /* original border width */
+    background-color: #5EAADF;
 }
 
 h1,h2,h3,h4,h5 { 
