@@ -83,11 +83,12 @@ h1 {
 }
 
 div.imagetext {
-    justify-content: center;
+  justify-content: center;
   align-items: center;
   display: flex;
   color: #fff;
   position: absolute;
   height: 448px;
   width: 526px;
+  top: 234px;
   left: 750px;
