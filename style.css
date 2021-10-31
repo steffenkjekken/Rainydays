@@ -101,6 +101,5 @@ div.featured_jackets {
     display: flex;
     flex-direction: column;
     position: relative;
-    width: 230px;
-    height: 299px;
+    height: 553px;
 }
