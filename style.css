@@ -68,7 +68,7 @@ footer {
     width: 1440px;
     height: 672px;
     background-color: #E3E3E352;
-    opacity: 32%;
+    opacity: 5%;
 
 }
 
@@ -79,7 +79,7 @@ section.welcome {
 }
 
 h1 {
-    size: 144px;
+    text-size-adjust: 144px;
     position: absolute;
     top: 50%;
     left: 75%;
