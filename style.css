@@ -69,3 +69,9 @@ footer {
     height: 672px;
 
 }
+
+section.welcome {
+    position: relative;
+    text-align: center;
+    color:#FFE51E;
+}
