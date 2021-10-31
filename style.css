@@ -80,12 +80,11 @@ section.welcome {
 
 h1 {
     font-size: 144px;
-    top: 50%;
-    left: 75%;
 }
 
 .imagetext {
     position: relative;
+    text-align: center;
     display: flexbox;
     height: 526px;
     width: 448px;
