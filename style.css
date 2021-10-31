@@ -75,3 +75,10 @@ section.welcome {
     text-align: center;
     color:#FFE51E;
 }
+
+h1 {
+    size: 144px;
+    position: absolute;
+    top: 50%;
+    left: 75%;
+}
