@@ -15,6 +15,7 @@ ul{
     display: flex;
     flex-direction: row;
 }
+
 ul li a {
     font-family: "EB Garamond", serif;
     text-decoration: none;
@@ -50,9 +51,9 @@ footer {
 }
 
 .logo {
-height: 86px;
-width: 200px;
-position: absolute;
+    height: 86px;
+    width: 200px;
+    position: absolute;
 }
 
 .border {
@@ -60,4 +61,10 @@ position: absolute;
     width: 1452px;
     height: 8px;
     position: inherit;
+}
+
+.frontpage_image { 
+    width: 1441px;
+    height: 672px;
+
 }
