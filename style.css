@@ -5,6 +5,11 @@
     font-family: "EB Garamond", serif;
     src: url("../Rainydays/fonts/EBGaramond-Italic-VariableFont_wght.ttf") format("truerype");
 }
+body {
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    }
 
 ul{
     display: flex;
@@ -42,7 +47,8 @@ footer {
     background-color: #002E55;
     width: 1452px;
     height: 122px;
-    top: 52 px
+    top: 52 px;
+    margin: ;
 }
 
 .logo {
