@@ -113,7 +113,7 @@ div.featured_jackets {
 }
 
 div.featured_jackets>img {
-    width: 230px;
+    width: auto;
     height: 299px;
 
 }
