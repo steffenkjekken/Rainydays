@@ -99,12 +99,13 @@ div.imagetext {
 
 section.featured {
     display: flex;
-    flex-direction: column;
-    position: relative;
-    height: 553px;
+    width: 100%;
 }
 
 div.featured_jackets {
     width: 230px;
     height: 299px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
 }
