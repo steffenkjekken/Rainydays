@@ -84,8 +84,8 @@ h1 {
 }
 
 div.imagetext {
-  justify-content: left;
-  align-items: center;
+  justify-content: center;
+  align-items: left;
   display: flex;
   flex-direction: column;
   color: #FFE51E;
