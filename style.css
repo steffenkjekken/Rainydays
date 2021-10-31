@@ -87,9 +87,9 @@ div.imagetext {
   justify-content: center;
   align-items: center;
   display: flex;
-  color: #fff;
+  color: #FFE51E;
   position: absolute;
   height: 448px;
   width: 526px;
-  top: 234px;
-  left: 750px;
+  left: calc(50% - 526px/2 + 293px);
+  top: calc(50% - 448px/2 - 670.5px);
