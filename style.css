@@ -75,17 +75,13 @@ footer {
 section.welcome {
     position: relative;
     text-align: center;
-    color:#FFE51E;
-}
-
-h1 {
-    font-size: 144px;
-}
-
-.imagetext {
-    position: relative;
-    text-align: center;
     display: flexbox;
     height: 526px;
     width: 448px;
 }
+
+h1 {
+    font-size: 144px;
+    color:#FFE51E;
+}
+
