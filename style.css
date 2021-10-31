@@ -5,11 +5,11 @@
     font-family: "EB Garamond", serif;
     src: url("../Rainydays/fonts/EBGaramond-Italic-VariableFont_wght.ttf") format("truerype");
 }
-body {
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
-    }
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
 
 ul{
     display: flex;
