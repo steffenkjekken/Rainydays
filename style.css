@@ -84,7 +84,6 @@ h1 {
 
 div.imagetext {
     position: absolute;
-    display: flex;
     height: 526px;
     width: 448px;
 }
