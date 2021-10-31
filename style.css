@@ -91,5 +91,4 @@ div.imagetext {
   position: absolute;
   height: 448px;
   width: 526px;
-  left: calc(50% - 526px/2 + 293px);
-  top: calc(50% - 448px/2 - 670.5px);
+  left: 750px;
