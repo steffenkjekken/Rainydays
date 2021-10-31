@@ -72,17 +72,18 @@ footer {
 
 }
 
-section.welcome {
-    justify-content: center;
-    position: absolute;
+div.wrapper {
+    position: relative;
     text-align: center;
     display: flexbox;
-    height: 526px;
-    width: 448px;
+
 }
 
 h1 {
     font-size: 144px;
-    color:#FFE51E;
+    position: absolute;
+    display: flex;
+    height: 526px;
+    width: 448px;
 }
-
+    
