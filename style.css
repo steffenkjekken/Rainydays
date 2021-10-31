@@ -97,9 +97,14 @@ div.imagetext {
     top: 18%;
 }
 
-div.featured_jackets {
+section.featured {
     display: flex;
     flex-direction: column;
     position: relative;
     height: 553px;
+}
+
+div.featured_jackets {
+    height: auto;
+    width: fit-content;
 }
