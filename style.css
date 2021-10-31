@@ -50,3 +50,10 @@ height: 86px;
 width: 200px;
 position: absolute;
 }
+
+.border {
+    background-color: #FFE51E;
+    width: 1452px;
+    height: 8px;
+    position: inherit;
+}
