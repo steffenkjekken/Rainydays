@@ -111,3 +111,9 @@ div.featured_jackets {
     margin: 51px;
     box-sizing: border-box;
 }
+
+div.featured_jackets>img {
+    width: 230px;
+    height: 299px;
+
+}
