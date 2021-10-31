@@ -80,6 +80,7 @@ div.wrapper {
 h1 {
     font-size: 144px;
     line-height: 78%;
+    letter-spacing: 1.5%;
 
 }
 
@@ -94,4 +95,4 @@ div.imagetext {
     height: 448px;
     width: 526px;
     left: 750px;
-    top: 20%;
+    top: 18%;
