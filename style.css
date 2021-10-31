@@ -108,6 +108,6 @@ div.featured_jackets {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    padding: 51px;
+    margin: 51px;
     box-sizing: border-box;
 }
