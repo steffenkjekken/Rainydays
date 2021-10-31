@@ -47,7 +47,7 @@ h1,h2,h3,h4,h5 {
 header,
 footer {
     background-color: #002E55;
-    width: 1452px;
+    width: 1440px;
     height: 122px;
 }
 
@@ -59,13 +59,13 @@ footer {
 
 .border {
     background-color: #FFE51E;
-    width: 1452px;
+    width: 1440px;
     height: 8px;
     position: inherit;
 }
 
 .frontpage_image { 
-    width: 1441px;
+    width: 1440px;
     height: 672px;
 
 }
