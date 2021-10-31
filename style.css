@@ -95,3 +95,12 @@ div.imagetext {
     width: 526px;
     left: 750px;
     top: 18%;
+}
+
+div.featured_jackets {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    width: 230px;
+    height: 299px;
+}
