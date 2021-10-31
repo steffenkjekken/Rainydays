@@ -6,7 +6,7 @@
     src: url("../Rainydays/fonts/EBGaramond-Italic-VariableFont_wght.ttf") format("truerype");
 }
 
-.nav header ul{
+ul{
     display: flex;
     flex-direction: row;
 }
@@ -16,7 +16,7 @@ ul li a {
     color: #EAEAEA;
 }
 
-.nav header ul li { 
+ul li { 
     color: #EAEAEA;
     list-style-type: none;
     margin: 4px 0;
@@ -25,7 +25,7 @@ ul li a {
     position: relative;
     line-height: 20px;
 }
-.nav header ul li:before {
+ul li:before {
     content: "";
     position: absolute;
     height: 24px;
