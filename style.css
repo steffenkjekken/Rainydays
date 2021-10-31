@@ -84,7 +84,7 @@ h1 {
 }
 
 div.imagetext {
-  justify-content: center;
+  justify-content: left;
   align-items: center;
   display: flex;
   flex-direction: column;
