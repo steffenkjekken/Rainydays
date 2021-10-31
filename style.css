@@ -84,13 +84,14 @@ h1 {
 }
 
 div.imagetext {
-  justify-content: center;
-  align-items: left;
-  display: flex;
-  flex-direction: column;
-  color: #FFE51E;
-  position: absolute;
-  height: 448px;
-  width: 526px;
-  left: 750px;
-  top: 25%;
+    text-align:left;
+    justify-content: center;
+    align-items: left;
+    display: flex;
+    flex-direction: column;
+    color: #FFE51E;
+    position: absolute;
+    height: 448px;
+    width: 526px;
+    left: 750px;
+    top: 25%;
