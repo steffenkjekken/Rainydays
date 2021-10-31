@@ -103,8 +103,6 @@ section.featured {
 }
 
 div.featured_jackets {
-    width: 230px;
-    height: 299px;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
