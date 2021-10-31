@@ -67,14 +67,13 @@ footer {
 .frontpage_image { 
     width: 1440px;
     height: 672px;
+    opacity: 32%;
 
 }
 
 div.wrapper {
     position: relative;
     text-align: center;
-    background-color: #E3E3E352;
-    opacity: 32%;
 }
 
 h1 {
