@@ -105,6 +105,6 @@ section.featured {
 }
 
 div.featured_jackets {
-    height: auto;
-    width: fit-content;
+    width: 230px;
+    height: 299px;
 }
