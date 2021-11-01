@@ -3,7 +3,7 @@
     src: url("../Rainydays/fonts/BebasNeue-Regular.ttf") format("truetype");
 
     font-family: "EB Garamond", serif;
-    src: url("../Rainydays/fonts/EBGaramond-Italic-VariableFont_wght.ttf") format("truerype");
+    src: url("../Rainydays/fonts/EBGaramond-Italic-VariableFont_wght.ttf") format("truetype");
 }
 
 html, body {
@@ -100,18 +100,95 @@ div.imagetext {
 section.featured {
     display: flex;
     width: 100%;
+    padding-top: 51px;
 }
 
 div.featured_jackets {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    margin: 51px;
+    margin: 12px;
     box-sizing: border-box;
 }
 
 div.featured_jackets>img {
     width: auto;
     height: 280px;
+
+}
+
+h3 {
+    font-size: 40px;
+}
+h3 a {
+    text-decoration: none;
+    color: #FFE51E;
+    margin: 20px;
+}
+
+section.highlight {
+    display: flex;
+    justify-content: center;
+    
+}
+  
+.product_highlight, .jacket_highlight {
+    margin: 51px;
+    width: 512px;
+    height: 392px;
+    background-color: #002E55;
+    border: 7px solid;
+    border-color: #2A96D2;
+    line-height: 0px;
+    
+  }
+  
+div.product_highlight>img,
+div.jacket_highlight>img {
+    width: 512px;
+    height: 197px;
+  }
+
+div.product_highlight>p,
+div.jacket_highlight>p {
+      display: flexbox;
+      flex-wrap: wrap;
+      font-family:"EB Garamond", serif ;
+      font-style: italic;
+      font-size: 28px;
+      color: #2A96D2;
+      line-height: 28px;
+      margin: 20px;
+  }
+
+h4 {
+    font-size: 42px;
+    color: #FFE51E;
+    margin-top: 0px;
+    justify-content: center;
+    text-align: center;
+    clear: both;
+    word-break: break-all;
+    display: inline;
+}
+
+.mail_list {
+    
+}
+div.mail {
+    display: block;
+    background-color: #002E55;
+    border: 7px solid;
+    border-color: #2A96D2;
+    position: absolute;
+    width: 512px;
+    height: 197px;
+    left: 465px;
+    top: 1807px;
+    overflow: auto;
+}
+
+h4 span {
+    display: block;
 
 }
