@@ -10,6 +10,7 @@ html, body {
     width: 100%;
     margin: 0;
     padding: 0;
+    display: block;
 }
 
 ul{
@@ -165,6 +166,7 @@ h4 {
     font-size: 42px;
     color: #FFE51E;
     margin-top: 0px;
+    margin-bottom: 0px;
     justify-content: center;
     text-align: center;
     clear: both;
@@ -173,22 +175,53 @@ h4 {
 }
 
 .mail_list {
+    display: flex;
+    justify-content: center;
     
 }
 div.mail {
-    display: block;
     background-color: #002E55;
     border: 7px solid;
     border-color: #2A96D2;
-    position: absolute;
     width: 512px;
     height: 197px;
-    left: 465px;
-    top: 1807px;
     overflow: auto;
+    margin: 52px;
 }
 
 h4 span {
     display: block;
+}
 
+input {
+    outline: none;
+    width: 390px;
+    height: 45px;
+}
+
+.mail_list>ul>li:before {
+    content: none;
+}
+
+.form-center {
+    display: flex;
+    justify-content: center;
+
+}
+.footertext {
+    height: 180px;
+    width: 170px;
+    top: 1.62%;
+    bottom: 1.08%;
+    display: flex;
+    flex-shrink: inherit;
+}
+h5 {
+    font-size: 44px;
+    color: #FFE51E;
+    text-align: right;
+    line-height: 82.5%;
+}
+h5 span {
+    display: block;
 }
