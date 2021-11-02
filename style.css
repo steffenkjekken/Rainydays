@@ -13,18 +13,18 @@ html, body {
     display: block;
 }
 
-ul{
+nav ul{
     display: flex;
     flex-direction: row;
 }
 
-ul li a {
+nav ul li a {
     font-family: "EB Garamond", serif;
     text-decoration: none;
     color: #EAEAEA;
 }
 
-ul li { 
+nav ul li { 
     color: #EAEAEA;
     list-style-type: none;
     margin: 4px 0;
@@ -33,7 +33,7 @@ ul li {
     position: relative;
     line-height: 20px;
 }
-ul li:before {
+nav ul li:before {
     content: "";
     position: absolute;
     height: 24px;
@@ -45,11 +45,19 @@ h1,h2,h3,h4,h5 {
     font-family: "Bebas Neue", serif;
 }
 
-header,
+header {
+    background-color: #002E55;
+    width: 100%;
+    height: 122px;
+    margin-top: 0;
+}
+
 footer {
     background-color: #002E55;
-    width: 1440px;
-    height: 122px;
+    width: 100%;
+    height: 200px;
+    position: relative;
+    margin: 0 0 -500px 0;
 }
 
 .logo {
@@ -62,7 +70,6 @@ footer {
     background-color: #FFE51E;
     width: 1440px;
     height: 8px;
-    position: inherit;
 }
 
 .frontpage_image { 
@@ -95,7 +102,7 @@ div.imagetext {
     height: 448px;
     width: 526px;
     left: 750px;
-    top: 18%;
+    margin-top: -40%;
 }
 
 section.featured {
@@ -187,6 +194,7 @@ div.mail {
     height: 197px;
     overflow: auto;
     margin: 52px;
+    
 }
 
 h4 span {
@@ -199,8 +207,8 @@ input {
     height: 45px;
 }
 
-.mail_list>ul>li:before {
-    content: none;
+.mail_list>ul>li {
+    margin: 0px;
 }
 
 .form-center {
@@ -208,13 +216,12 @@ input {
     justify-content: center;
 
 }
-.footertext {
-    height: 180px;
+.ptcz {
+    display: table-footer-group;
+    height: 200px;
     width: 170px;
-    top: 1.62%;
-    bottom: 1.08%;
-    display: flex;
-    flex-shrink: inherit;
+    margin: 0px 0px 200px 0px;
+
 }
 h5 {
     font-size: 44px;
@@ -225,3 +232,36 @@ h5 {
 h5 span {
     display: block;
 }
+
+footer ul{
+    display: flex;
+    flex-direction:column;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+footer ul li { 
+    font-size: 30px;
+    color: #FFFFFF;
+    margin: -250px 0px 200px 80px;
+}
+
+.footermenu {
+    float: left;
+    margin-top: 0px;
+}
+
+.f-icons {
+    display: flex;
+    align-items: center;
+    margin: -150px 50px 550px 580px;
+}
+
+.f-icons i+i {
+   margin-left: .5cm;
+}
+
+.space {
+    padding: 50px;
+}
+
