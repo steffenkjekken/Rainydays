@@ -125,6 +125,17 @@ section.featured {
     padding-top: 51px;
 }
 
+a {
+    text-decoration: none;
+}
+
+h2 {
+    display: flex;
+    align-items: center;
+    text-align: left;
+    color: black;
+}
+
 div.featured_jackets {
     display: flex;
     justify-content: center;
@@ -215,6 +226,25 @@ h4 span {
     display: block;
 }
 
+.cta {
+    text-align: center;
+    background-color:#FFE51E;
+    font-family: "Bebas Neue", serif;
+    font-size: 32px;
+    text-transform: uppercase;
+    border-radius: 5px;
+    height: 35px;
+    width: 100px;
+    margin: -55px 0px 0px 380px;
+    box-shadow: inset 2px 31px 0px -11px rgba(234, 234, 234, 0.50);
+}
+
+.cta a {
+    text-decoration: none;
+    color: black;
+}
+
+
 input {
     outline: none;
     width: 280px;
@@ -222,17 +252,21 @@ input {
     font-size: 22px;
     font-family: "EB Garamond", serif;
     font-style: italic;
-    color: #2A96D2;
+    color:#002E55;
 }
 
-.mail_list>ul>li {
+.mail_list>ul>´li {
     margin: 0px;
+}
+
+.mail_list ul {
+    list-style-type: none;
 }
 
 .form-center {
     display: flex;
     justify-content: center;
-    margin: 0px 0px 0px -40px;
+    margin: 0px 0px 0px -100px;
 
 }
 .ptcz {
@@ -285,6 +319,14 @@ footer ul li {
     float: left;
     align-items: center;
     margin: 40px 0px 220px 140px;
+}
+
+.f-icons a {
+    text-decoration: none;
+    color: #2A96D2;
+    padding: 10px;
+        
+    }
 }
 
 .f-icons i+i {
