@@ -11,6 +11,7 @@ html, body {
     width: 100%;
     margin: 0;
     padding: 0;
+    background-color: #DFDFDF;
 }
 
 header nav ul{
@@ -46,7 +47,7 @@ nav ul li:before {
 }
 
 
-h1,h2,h3,h4,h5 { 
+h1,h2,h3,h4,h5,h6 { 
     font-family: "Bebas Neue", serif;
 }
 
@@ -75,6 +76,18 @@ header i {
     background-color: #FFE51E;
     width: 1440px;
     height: 8px;
+}
+
+.background_border {
+    width: 1186px;
+    height: auto;
+    background-color: #EAEAEA;
+    position: relative;
+    top:-10%;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
 }
 
 .frontpage_image { 
@@ -119,8 +132,7 @@ a {
 
 h2 {
     display: flex;
-    align-items: center;
-    text-align: left;
+    align-self: center;
     color: black;
 }
 
@@ -134,11 +146,15 @@ div.featured_jackets {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    padding: 20px;
 }
 
 div.featured_jackets>img {
-    width: auto;
-    height: 260px;
+    width: 230px;
+    height: 299px;
+    object-fit: cover;
+    border-color: black;
+    border: 1px solid;
 }
 
 h3 {
@@ -337,6 +353,70 @@ footer {
     bottom: -5px;
     display: inline-block;
     overflow: hidden;
+}
+
+h6 {
+    font-size: 96px;
+    display: inline;
+}
+
+div.jacketshead {
+    padding: 50px;
+}
+
+div.flex-containermenu {
+    display: flex; 
+    flex-wrap: wrap;
+    flex-direction: row;
+    max-width: 1440px;
+    min-width: 150px;
+    justify-content: center;
+    padding: 50px;
+}
+
+div.flex-containermenu > div {
+    flex-grow: 1;
+}
+
+div.menu_jackets>img {
+    width: 230px;
+    height: 299px;
+    object-fit: cover;
+    margin: 0px 0 0 50px;
+}
+
+
+div.flex-container.specific {
+    display: flex;
+
+}
+
+div.jacket_info {
+    width: 400px;
+    text-align: left;
+    
+}
+
+div.jacket_info>p {
+    height: 283px;
+    width: 436px;
+    font-size: 30px;
+    font-style: italic;
+}
+
+div.size {
+    display: flex;
+    width: 300px;
+}
+
+div.size>div {
+    height: 60px;
+    width: 60px;
+    background-color: #c4c4c4;
+    margin: 20px;
+    text-align: center;
+    font-family: "Bebas Neue", serif;
+    font-size: 48px;
 }
 
 @media (max-width: 640px) {
