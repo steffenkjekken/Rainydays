@@ -11,7 +11,6 @@ html, body {
     width: 100%;
     margin: 0;
     padding: 0;
-    display: block;
 }
 
 header nav ul{
@@ -46,9 +45,6 @@ nav ul li:before {
     background-color: #FFE51E;
 }
 
-nav i {
-    display: block;
-}
 
 h1,h2,h3,h4,h5 { 
     font-family: "Bebas Neue", serif;
@@ -61,17 +57,6 @@ header {
     margin-top: 0;
 }
 
-footer {
-    background-color: #002E55;
-    width: 100%;
-    height: 200px;
-    position: relative;
-    bottom: -5px;
-    display: inline-block;
-    overflow: hidden;
-
-}
-
 .logo {
     height: 86px;
     width: 200px;
@@ -80,8 +65,10 @@ footer {
 }
 
 header i {
-    margin: 68px 0px 0px 200px;
+    margin: -60% 0 0 90%;
+    display: inline-flex;
     color: #FFE51E;
+    position: relative;
 }
 
 .border {
@@ -91,15 +78,19 @@ header i {
 }
 
 .frontpage_image { 
+    display:flex;
+    flex-wrap: wrap;
     width: 1440px;
-    height: 672px;
+    height: auto;
     opacity: 70%;
 
 }
 
 div.wrapper {
     position: relative;
-    text-align: center;
+    height:auto;
+    width: 1440px;
+
 }
 
 h1 {
@@ -110,23 +101,16 @@ h1 {
 }
 
 div.imagetext {
+    top: 0;
     text-align:left;
     justify-content: center;
-    align-items: left;
     display: flex;
-    flex-direction: column;
+    flex-shrink: inherit;
     color: #FFE51E;
     position: absolute;
-    height: 448px;
     width: 526px;
     left: 750px;
-    margin-top: -40%;
-}
-
-section.featured {
-    display: flex;
-    width: 100%;
-    padding-top: 51px;
+    margin-top:0%;
 }
 
 a {
@@ -140,18 +124,21 @@ h2 {
     color: black;
 }
 
+div.flex-container {
+    display: flex; 
+    flex-flow: row nowrap;
+    text-align: center;
+}
+
 div.featured_jackets {
     display: flex;
-    justify-content: center;
     flex-wrap: wrap;
-    margin: 12px;
-    box-sizing: border-box;
+    justify-content: center;
 }
 
 div.featured_jackets>img {
     width: auto;
-    height: 280px;
-
+    height: 260px;
 }
 
 h3 {
@@ -168,7 +155,7 @@ section.highlight {
     justify-content: center;
     
 }
-  
+
 .product_highlight, .jacket_highlight {
     margin: 51px;
     width: 512px;
@@ -342,3 +329,18 @@ footer ul li {
 
 }
 
+footer {
+    background-color: #002E55;
+    width: 100%;
+    height: 200px;
+    position: relative;
+    bottom: -5px;
+    display: inline-block;
+    overflow: hidden;
+}
+
+@media (max-width: 640px) {
+    section.highlight {
+        flex-direction: column;
+        padding: 20%;
+    }
