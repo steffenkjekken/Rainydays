@@ -388,8 +388,9 @@ div.menu_jackets>img {
 
 div.flex-container.specific {
     display: flex;
-    justify-content: center;
-    padding-top: 20px;
+    justify-content: space-between;
+    column-gap: 30px;
+    padding: 40px;
     padding-bottom: 200px;
 
 }
@@ -420,13 +421,13 @@ div.thumbnail_img {
     display: flex;
     width: 562px;
     position:absolute;
-    top: 700px;
-    left: 102px;
+    top: 740px;
+    left: 70px;
 
 }
 
 div.thumbnail_img>div {
-    margin: 0,5px;
+    margin: 0,6px;
     width: 114px;
     height: 114px;
     background-color: #FFFFFF;
@@ -437,8 +438,11 @@ div.thumbnail_img>div {
 
 div.size {
     display: flex;
+    position: relative;
+    margin-left: -20px;
     width: 300px;
     top: 0px;
+    padding-top: 0px;
 }
 
 div.size>div {
@@ -452,17 +456,29 @@ div.size>div {
 }
 
 div.cta.a2c {
-    display: block;
+    display: flex;
     font-size: 64px;
-    text-align: center;
-    line-height: -1px;
-    position: absolute;
-    width: 300px;
+    justify-content: center;
+    position: relative;
+    width: 260px;
     height: 90px;
-    left: 300px;
-    margin-top: 0px;
+    margin: 0px 0 0 0px;
 }
 
+div.YMAL {
+    position: relative;
+    font-family: "Bebas Neue", serif;
+    font-size: 60px;
+    margin-left: 130px;
+}
+
+div.flex-container.jacket {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    align-items: center;
+    margin: 0 80px 0 80px;
+}
 
 @media (max-width: 640px) {
     section.highlight {
