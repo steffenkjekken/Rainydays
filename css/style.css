@@ -546,6 +546,132 @@ div.form-contact {
     font-size: 88px;
 }
 
+div.checkout {
+    padding: 20px;
+    justify-content: center;
+}
+
+div.jacketpreview {
+    margin: auto;
+    padding: 20px;
+    height: 262px;
+    width: 800px;
+    border: 1px solid;
+    border-color: black;
+}
+
+div.jacketpreview>img {
+    height: 210px;
+    width: 210px;
+    object-fit: cover;
+    margin: 20px;
+    float: left;
+}
+
+p.checkout,
+p.orderid {
+    font-size: 20px;
+    position: relative;
+}
+
+div.line {
+    display: inline-block;
+    width: 515px;
+    height: 9px;
+    background-color: #FFE51E;
+}
+div.checkoutform ul {
+    margin-top: 50px;
+    padding: 20px;
+    list-style-type: none;
+    margin-left: 160px;
+}
+
+div.imgwrapcta {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    float: right;
+    margin: 0px;
+    bottom: 370px;
+    right: 20px;
+    justify-content: center;
+}
+
+img.ctabg {
+    float: right;
+    height: 340px;
+    width: 380px;
+    object-fit: cover;
+    opacity: 80%;
+    z-index: 0;
+    border: 2px solid;
+    border-color: #FFE51E;
+}
+
+div.cta.checkout {
+    justify-content: center;
+    position: relative;
+    float: left;
+    width: 120px;
+    z-index: 5;
+    right: 270px;
+    bottom: 170px;
+
+}
+
+div.background_border.success {
+    position: relative;
+    top: 0;
+    bottom: -5px;
+    background: linear-gradient( #002E55 0%, #2A96D2 70.31%, #002E55 100%);
+    height: 1200px;
+    
+}
+
+p.big {
+    font-size: 250px;
+    font-family: "Bebas Neue", serif;
+    color: #FFE51E;
+    margin-top: -30px;
+    margin-bottom: -50px;
+    left: 600px;
+    width: 100%;
+}
+
+div.successwrap {
+    margin-top: 60px;
+    padding: 0;
+    position: absolute;
+    text-align: center;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+div.checkoutline {
+    height: 10px;
+    width: 800px;
+    background-color: #FFE51E;
+}
+
+p.successtext,
+p.orderid2 {
+    font-family: "EB Garamond", serif;
+    font-style: italic;
+    font-size: 68px;
+    color: #FFE51E;
+    position: relative;
+    float: inline-start;
+    width: 100%;
+    padding: 20px;
+}
+
+img.successimg {
+    margin-top: 80px;
+    width: 609px;
+    height: 263px;
+}
+
 @media (max-width: 640px) {
     section.highlight {
         flex-direction: column;
