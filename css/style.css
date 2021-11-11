@@ -9,16 +9,33 @@
 html, body {
     height: 100%;
     width: 100%;
+    max-width: 1440px;
+    min-width: 240px;
     margin: 0;
     padding: 0;
     background-color: #DFDFDF;
 }
 
-header nav ul{
-    display: flex;
-    flex-direction: row;
-    margin: 0px 0px 0px 200px;
-    padding-bottom: 20px;
+h1,h2,h3,h4,h5,h6 { 
+    font-family: "Bebas Neue", serif;
+}
+
+div.headergrid {
+    display: grid;
+    grid-template-columns: auto;
+    grid-gap: 100px;
+    padding: 10px;
+} 
+
+header nav ul { 
+    display: inline-block; 
+    padding: 40px 100px;
+    margin: 0;
+    width: 100%;
+}
+
+header nav ul i {
+    margin-left: 100px;
 }
 
 header nav ul li a {
@@ -29,26 +46,22 @@ header nav ul li a {
 }
 
 header nav ul li { 
+    display: grid;
+    width: 150px;
     color: #EAEAEA;
     list-style-type: none;
-    margin: -18px 0;
-    padding-top: 92px;
-    padding-left: 76px;
-    position: relative;
-    line-height: 20px;
+    float: left;
+    left: 200px;
+    padding-right: 60px;
 }
+
 nav ul li:before {
     content: "";
     position: absolute;
-    height: 24px;
-    width: 2px;
+    height: 32px;
+    width: 3px;
     margin-left: -10px;
     background-color: #FFE51E;
-}
-
-
-h1,h2,h3,h4,h5,h6 { 
-    font-family: "Bebas Neue", serif;
 }
 
 header {
@@ -59,15 +72,14 @@ header {
 }
 
 .logo {
+    display: grid;
     height: 86px;
     width: 200px;
-    position: absolute;
-    margin: 20px 0px 0px 20px;
+    padding: 20px;
+    float: left;
 }
 
 header i {
-    margin: -60% 0 0 90%;
-    display: inline-flex;
     color: #FFE51E;
     position: relative;
 }
@@ -481,7 +493,8 @@ div.flex-container.jacket {
 }
 
 div.about {
-    padding: 50px;
+    padding-inline: 150px;
+    padding-top: 50px;
 }
 
 div.about>p {
@@ -516,7 +529,6 @@ div.form-contact {
 .form-contact input.Message {
     width: 400px;
     height: 250px;
-    text-
 }
 
 .form-contact input.Message.textarea {
@@ -539,3 +551,4 @@ div.form-contact {
         flex-direction: column;
         padding: 20%;
     }
+}
