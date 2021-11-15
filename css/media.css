@@ -306,10 +306,9 @@ header nav ul li {
     padding-right: 20px;
 }
 
-header i {
+header nav i {
     color: #FFE51E;
     position: relative;
-    left: 20%;
     display: inline;
 }
 
