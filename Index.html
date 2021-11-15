@@ -6,10 +6,9 @@
         <meta name="description" content="Durable and fashionable outerwear for men and woman" />
         <script src="https://kit.fontawesome.com/7185a44500.js" crossorigin="anonymous"></script>
         <title>Rainydays | Home</title>
-        <link  href="css/style.css" rel="stylesheet">
+        <link  href="css/media.css"rel="stylesheet">
     </head>
-    
-<body>
+
     <header>
        
         <a href="Index.html">
@@ -31,41 +30,43 @@
         </nav>
     </div>
     </header>
-<div class="border"></div>
-    <section id="welcome">
-            <picture>
-                <source srcset="Images/Frontpage2.jpg" media="(max-width: 640px)">
-                <img src="Images/Frontpage.jpg" alt="Snowy Mountains">
-            </picture>
-            <div class="imagetext"><h1>Pushing the comfort zone</h1></div>
+
+<section id="welcome">
+    <picture>
+        <source srcset="Images/Frontpage2.jpg" media="(max-width: 640px)">
+        <img src="Images/Frontpage.jpg" alt="Snowy Mountains">
+    </picture>
+    <div class="imagetext"><h1>Pushing the comfort zone</h1></div>
 </section>
-    <div class="background_border">
-    <section id="featured">
+<section id="featured">
     <div class="flex-container jacket">
-      <a href="#"></a>
+      <a href="specificproduct.html">
         <div class="featured_jackets">
         <img src="Images/Jacket.jpg" alt="Yellow raincoat" />
         <h2>Product name $99.00</h2>
         </div>
     </a>
-    <a href="#">
+    <a href="specificproduct.html">
         <div class="featured_jackets">
         <img src="Images/Jacket.jpg" alt="Yellow raincoat" />
         <h2>Product name $99.00</h2>
         </div>
     </a>
-    <a href="#">
+    <a href="specificproduct.html">
         <div class="featured_jackets">
         <img src="Images/Jacket.jpg" alt="Yellow raincoat" />
         <h2>Product name $99.00</h2>
         </div>
     </a>
-    <a href="#">
+    <a href="specificproduct.html">
         <div class="featured_jackets">
         <img src="Images/Jacket.jpg" alt="Yellow raincoat" />
         <h2>Product name $99.00</h2>
         </div>
     </a>
+    </div>
+    <div class="alljackets">
+        <h3><a href="productmenu.html">View all jackets</a></h3>
     </div>
 </section>
 <section id="highlight">
@@ -86,40 +87,46 @@
             </p>
         </div>
 </section>
-<section id="mail_list">
-    <div class="mail">
-        <h4><span>explore with us</span>
-        <span>join our mail list today</span>
-        </h4>
-    <div class="form-center">
-        <form action="where/to/send/data" method="get">
-        <ul>
-         <li>
-           <input type="email" id="Mail" placeholder="Enter your E-Mail">
-         </li>
-        </ul>
-        </form>
-    </div>
-    <div class="cta"><a href="#">submit</a></div>
+<section id="social">
+    <div class="follow">
+        <h6>Follow us</h6>
+        <div class="social_icons">
+            <a href="#"><i class="fab fa-instagram-square fa-7x"></i></a>
+            <a href="#"><i class="fab fa-twitter-square fa-7x"></i></a>
+            <a href="#"><i class="fab fa-facebook-square fa-7x"></i></a>
+          </div>
+          <h4>Join the Rainydays community</h4>
+          <div class="form-social">
+            <form action="where/to/send/data" method="get">
+            <ul>
+             <li>
+               <input type="email" id="Mail" placeholder="Enter your E-Mail">
+             </li>
+            </ul>
+            </form>
+        </div>
     </div>
 </section>
-<div class="space"></div>
-</div>
-<footer>
-    <div class="ptcz"><h5><span>Pushing</span><span>the</span><span>Comfort</span><span>Zone</span></h5></div>
-    <div class="footermenu">
-     <nav>
+<section id="footer">
+<footer class="mobilefooter">
+    <img src="Images/RainyDays_Logo.png" alt="Rainy Days Logo" class="footerlogo">
+    <li><a href="#">Terms of service</a></li>
+    </footer>
+<footer class="desktopfooter">
+<div class="ptcz"><h5>Pushing<span>the</span><span>Comfort</span><span>Zone</span></h5></div>
+<div class="footerwrap">      
+<nav>
         <ul>
-          <li><a href="#">About us</a></li>
-          <li><a href="#">Contact us</a></li>
+          <li><a href="aboutus.html">About us</a></li>
+          <li><a href="contactus.html">Contact us</a></li>
           <li><a href="#">Terms of service</a></li>
         </ul>
       </nav>
-    </div>
+      </div>
     <div class="f-icons">
       <a href="#"><i class="fab fa-instagram-square fa-7x"></i></a>
       <a href="#"><i class="fab fa-twitter-square fa-7x"></i></a>
       <a href="#"><i class="fab fa-facebook-square fa-7x"></i></a>
     </div>
-</footer>
-</body>
+    </footer>
+</section>
