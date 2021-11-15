@@ -64,6 +64,14 @@ nav ul li:before {
     background-color: #FFE51E;
 }
 
+label[for="hamburger-menu"] {
+    display: none;
+}
+
+#hamburger-menu:checked ~ nav {
+    display: block;
+}
+
 header {
     background-color: #002E55;
     width: 100%;
@@ -672,7 +680,47 @@ img.successimg {
     height: 263px;
 }
 
-@media (max-width: 640px) {
+@media (max-width: 500px) {
+    
+    body {
+        max-width: 300;
+        margin: 0 auto;
+        display: grid;
+        grid-template-areas:
+            'top'
+            'hero'
+            'boxes'
+            'highlight'
+            'mailbox'
+            'bottom';
+    }
+
+    header {grid-area: top;}
+    section#welcome {grid-area: hero; }
+    section#featured {grid-area: boxes; }
+    section#highlight {grid-area: highlight; }
+    section#mail_list {grid-area: mailbox; }
+    footer {grid-area: bottom; }
+
+    header {
+        margin: 0px 0;
+        position: relative;
+        height: 70px;
+    }
+
+    .logo {
+        width: 100px;
+        height: auto;
+    }
+
+    nav {
+        display: none;
+    }
+
+    #hamburger-menu {
+        display: none;
+    }
+
     section.highlight {
         flex-direction: column;
         padding: 20%;
