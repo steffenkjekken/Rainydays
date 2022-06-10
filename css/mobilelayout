@@ -1,0 +1,88 @@
+@media (min-width: 380px) and (max-width:500px) { 
+    
+    body {
+        min-width: 380px;
+        max-width: 100%;
+        margin: 0 auto;
+        display: grid;
+        grid-template-areas:
+            'top'
+            'hero'
+            'boxes'
+            'highlight'
+            'mailbox'
+            'bottom';
+    }
+
+    header {grid-area: top;}
+    section#welcome {grid-area: hero; }
+    section#featured {grid-area: boxes; }
+    section#highlight {grid-area: highlight; }
+    section#mail_list {grid-area: mailbox; }
+    footer {grid-area: bottom; }
+
+    header {
+        height: 70px;
+    }
+
+    .logo {
+        width: 100px;
+        height: auto;
+    }
+
+    nav {
+        display: none;
+    }
+
+    label[for="hamburger-menu"] {
+        display: block;
+    }
+
+    #hamburger-menu:checked ~ nav {
+        display: block;
+    }
+
+    label[for="hamburger-menu"] {
+        font-size: 3em;
+        position: absolute;
+        top: 10px;
+    }
+
+    div.headergrid {
+        display: grid;
+        grid-template-columns: auto;
+
+    }
+
+    .frontpage_image {
+        height: auto;
+        width: 100%;
+        display: block;
+    }
+
+    header nav ul {
+        list-style-type: none;
+        display: inline-block;
+        padding: 10px 0;
+        margin: 0;
+        width: 100%;
+    }
+
+    header nav ul li {
+        margin-bottom: 2px;
+        list-style-type: none;
+    }
+
+    header nav ul li a {
+        background: #DFDFDF;
+        color: black;
+        font-family: "Bebas Neue", serif;
+        text-align: center;
+    }
+
+
+    section.highlight {
+        flex-direction: column;
+        padding: 20%;
+    }
+}

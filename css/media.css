@@ -31,52 +31,76 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 header {
-    height: 70px;
     position: relative;
     background-color: #002E55;
     width: 100%;
 }
 
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
 .logo {
     width: 100px;
     height: auto;
+    padding: 10px 0;
     
 }
 
-header.nav {
+.headercontainer {
+    display: block;
+}
+
+header nav {
     display: none;
 }
 
-label[for="hamburger-menu"] {
-    display: block;
-}
 
 #hamburger-menu {
     display: none;
 }
 
-#hamburger-menu:checked ~ nav {
-    display: block;
+.mobile {
+    margin: 0;
+    padding: 0;
 }
 
-label[for="hamburger-menu"] {
-    font-size: 3em;
-    position: absolute;
-    right: 5px;
-    top: 10px;
-}
-
-header nav ul {
+ul {
     list-style-type: none;
-    display: inline-block;
+}
+
+.fa-shopping-cart {
+    display: none;
+}
+
+
+#hamburger-menu:checked~nav {
+    display: block;
+    transition: height 0.3s ease-in-out;
     padding: 0;
     margin: 0;
-    width: 100%;
-    overflow: hidden;
+}
+
+label[for=hamburger-menu] {
+    font-size: 2.5em;
+    padding: 15px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    color: #FFE51E;
+}
+
+
+header nav ul {
+    text-align: center;
+    color: #FFFCF5;
+    margin: 0;
+    padding: 0;
 }
 
 header nav ul li {
-    margin-bottom: 2px;
+    width: 100vw;
 }
 
 header nav ul li a {
@@ -88,9 +112,6 @@ header nav ul li a {
     display: block;
     text-align: center;
 }
-header nav ul li:last-child {
-    margin-bottom: 20px;
-}
 
 div.headergrid {
     display: grid;
@@ -99,7 +120,7 @@ div.headergrid {
 }
 
 section#welcome img {
-  width: 100%;
+  width: 100vw;
   height: auto;
 }
 
@@ -119,17 +140,6 @@ section#welcome > div.imagetext {
     right: 100px;
 
 }
-header nav ul {
-    list-style-type: none;
-    display: inline-block;
-    padding: 10px 0;
-    margin: 0;
-    width: 100%;
-}
-
-header nav ul li {
-    margin-bottom: 2px;
-}
 
 header nav ul li a {
     display: block;
@@ -147,13 +157,10 @@ section#featured {
 
 div.flex-container.jacket {
     height: 375px;
-    overflow-x: visible;
-    overflow-y: hidden;
-    white-space: nowrap;
-    position: relative;
-    margin: auto;
-    width: 50%;
     text-align: center;
+    display: flex;
+width: 100vw;
+overflow-y: scroll;
 }
 
 .featured_jackets {
@@ -177,9 +184,14 @@ div.alljackets {
     text-align: center;
 }
 
+.alljackets h3 {
+    font-size: 5vw;
+}
+
 section#highlight {
    display: flex;
    flex-direction: column;
+   padding: 10px 15px;
 }
 
 section#highlight img {
@@ -198,11 +210,19 @@ div.follow {
     padding-bottom: 20px;
 }
 
+.follow h6 {
+    font-size: 10vw;
+    margin: 20px 0;
+}
+
 .social_icons a {
     text-decoration: none;
     color: #2A96D2;
     padding: 10px;
-    font-size: 3vw;
+}
+
+.social_icons i {
+    font-size: 3em;
 }
 
 
