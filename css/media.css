@@ -280,11 +280,11 @@ body {
     max-width: 1440px; 
     grid-template-areas:
     'top'
-    'hero hero hero hero'
-    'boxes   boxes  boxes  boxes'
-    'highlight highlight'
+    'hero' 'hero' 'hero' 'hero'
+    'boxes'   'boxes'  'boxes'  'boxes'
+    'highlight' 'highlight'
     'social'
-    'bottom bottom bottom bottom';
+    'bottom' 'bottom' 'bottom' 'bottom';
 }
 
 header {
@@ -296,15 +296,16 @@ header {
 
 header nav {
     display: block;
-    padding: 0px;
+    padding: 40px;
     left: 40%;
     margin-left: 10%;
 }
 
 header nav ul { 
     display: inline-block; 
-    padding-top: 50px;
+    display: flex;
     margin: 0;
+    text-align: unset;
     
 }
 
@@ -322,8 +323,7 @@ header nav ul li {
     width: 150px;
     color: #EAEAEA;
     list-style-type: none;
-    float: left;
-    padding-right: 20px;
+    flex-direction: row;
 }
 
 header nav i {
@@ -366,20 +366,27 @@ label[for="hamburger-menu"] {
 }
 
 h1 {
-    font-size: 9rem;
+    font-size: 14vw;
     line-height: 78%;
     letter-spacing: 1.5%;
 
 }
 
-section#welcome > div.imagetext {
+.herocontainer {
+    position: relative;
+}
+
+.imagetext {
     position: absolute;
-    width: 526px;
-    height: 488px;
-    bottom: 20%;
     color: #FFE51E;
-    padding: 20px;
-    right: 100px;
+    width: min-content;
+    height: auto;
+    top: 18px;
+    right: 2%;
+}
+
+.imagetext h1{
+    margin: 0;
 }
 
 h2 {
@@ -392,20 +399,25 @@ section#featured {
 }
 
 div.flex-container.jacket {
-    width: 100%;
+    width: 100vw;
+    display: flex;
     flex-flow: row;
     text-align: center;
     margin: auto;
+    justify-content: center;
+    overflow-y: hidden;
+    height: auto;
 }
 
 div.featured_jackets {
     display: inline;
-    padding: 20px;
+    padding: 10px;
+    height: auto;
 }
 
 section#featured img {
-    width: 230px;
-    height: 299px;
+    width: 22vw;
+    height: auto;
     object-fit: cover;
     border-color: black;
     border: 1px solid;
@@ -413,13 +425,15 @@ section#featured img {
 
 div.alljackets {
     display: flex;
-    justify-content: center;
-    height: 120px;
     position: relative;
     background-color: #002E55;
-    width: 100%;
     color: #FFE51E;
     text-align: center;
+    height: fit-content;
+}
+
+.alljackets h3 {
+    margin: 5px;
 }
 
 h3 {
@@ -431,14 +445,9 @@ h3 a {
     margin: 20px;
 }
 
-section#highlight {
-    flex-direction: row;
-}
-
 .product_highlight, .jacket_highlight {
-    margin: 51px;
-    width: 512px;
-    height: 392px;
+    margin: 20px 15px;
+    width: auto;
     background-color: #002E55;
     border: 7px solid;
     border-color: #2A96D2;
@@ -486,7 +495,7 @@ section#highlight {
         border: 7px solid;
         border-color: #2A96D2;
         width: 512px;
-        height: 197px;
+        height: auto;
         overflow: auto;
         margin: 52px;
         justify-content: center;
@@ -496,7 +505,7 @@ section#highlight {
 
     section#footer {
         background-color: #002E55;
-        width: 100%;
+        width: 100vw;
         height: 200px;
         position: relative;
         bottom: -5px;
@@ -572,4 +581,10 @@ section#highlight {
         display: block;
     }
 
+
+@media (min-width: 920px) {
+
+    section#highlight {
+        flex-direction: row;
+    }
 }
